@@ -10,4 +10,6 @@
 
 def reverse_each_word(string)
   newarray = string.split(' ')
-  newarray.collect
+  newarray.collect {|index| index.reverse}
+  newarray.join(' ')
+end
