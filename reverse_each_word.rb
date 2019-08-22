@@ -7,4 +7,5 @@ def reverse_each_word(string)
   
   return newstring.delete_suffix(' ')
 end
-    
+
+def reverse_each_word()    
