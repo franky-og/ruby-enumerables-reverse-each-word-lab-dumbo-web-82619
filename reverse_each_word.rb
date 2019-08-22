@@ -4,7 +4,7 @@ def reverse_each_word(string)
   newarray.each do |index|
     newstring << index.reverse + " "
   end
-  newstring = newstring.delete
-  return newstring
+  
+  return newstring.delete_suffix
 end
     
