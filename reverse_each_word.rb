@@ -1,11 +1,13 @@
-def reverse_each_word(string)
-  newstring = ""
-  newarray = string.split(' ')
-  newarray.each do |index|
-    newstring << index.reverse + " "
-  end
+# def reverse_each_word(string)
+#   newstring = ""
+#   newarray = string.split(' ')
+#   newarray.each do |index|
+#     newstring << index.reverse + " "
+#   end
   
-  return newstring.delete_suffix(' ')
-end
+#   return newstring.delete_suffix(' ')
+# end
 
-def reverse_each_word()    
+def reverse_each_word(string)
+  newarray = string.split(' ')
+  newarray.collect
