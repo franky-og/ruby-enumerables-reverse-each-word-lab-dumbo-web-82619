@@ -4,6 +4,7 @@ def reverse_each_word(string)
   newarray.each do |index|
     newstring << index.reverse + " "
   end
+  newstring = newstring.pop
   return newstring
 end
     
