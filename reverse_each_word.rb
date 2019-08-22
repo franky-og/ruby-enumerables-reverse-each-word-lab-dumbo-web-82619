@@ -5,6 +5,6 @@ def reverse_each_word(string)
     newstring << index.reverse + " "
   end
   
-  return newstring.delete_suffix
+  return newstring.delete_suffix(' ')
 end
     
